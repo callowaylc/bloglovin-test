@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+
+def best_profit( array )
+  max = 0
+  min = nil
+
+  array.each do | current |
+    min = current       if min.nil? || current < min
+    max = current - min if ( current - min > max)
+
+    puts "min is #{ min }"
+  end
+
+  max
+end
