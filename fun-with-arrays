@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+# christian@bloglovin
+
+# given the following shitty array
+$array = [ 1, [ 2, 3 ], [ 4, [ 5, [ 6 ]]]];
+
+# can you flatten with recursion  
+
+
+# can you do the same without recursion
+
+
+# print "hello world" without using counters/foreach 
+$array    = [ 0 => [ 0 => [ 'hello world' ] ] ];
+$iterator = &$array;
+
+while(!is_null($iterator)) {
+
+}

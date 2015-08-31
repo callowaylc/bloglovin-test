@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# christian@bloglovin
+
+# imagine we were polling a socket for a stream of integers; can you
+# define a function that would be able to return the 
+
+def poll( socket, top: 10, max: 1000000 )
+
+end
